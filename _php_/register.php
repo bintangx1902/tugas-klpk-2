@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-if (!isset($_POST['username']) && !isset($_POST['email']) 
-    && !isset($_POST['first_name']) && !isset($_POST['last_name']) 
-    && !isset($_POST['pwd']) && !isset($_POST['pwd2'])) 
+if (empty($_POST['username']) && empty($_POST['email']) 
+    && empty($_POST['first_name']) && empty($_POST['last_name']) 
+    && empty($_POST['pwd']) && empty($_POST['pwd2'])) 
     {
         echo "<body>
             <script>
@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
             </body>";
         } else {
             set_cookie();
-            header("Location: ../login.html", true, 301);
+            header("location: ../login.html", true, 301);
             die();
         }
     } else {
