@@ -1,0 +1,17 @@
+body#login_register {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/clean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-cubes {
+    color: #ff6219;
+}
+
+.text-help {
+    color: #393f81;
+}
+
+p.text-help > a {
+    color: #393f81;
+}
