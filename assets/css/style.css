@@ -16,6 +16,15 @@ p.text-help > a {
     color: #393f81;
 }
 
-div img {
-    width: fit-content;
+.img-fill {
+    border-radius: 1rem 0 0 1rem;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.fw-normal {
+    letter-spacing: 1px;
 }
