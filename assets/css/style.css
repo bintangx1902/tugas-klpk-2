@@ -28,3 +28,7 @@ p.text-help > a {
 .fw-normal {
     letter-spacing: 1px;
 }
+
+li.custom-nav-item > a.text-white {
+    font-size: 1.2em;
+}
