@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if (!empty($_SESSION)) {
+    if (!empty($_SESSION) && $_SESSION['another']) {
         $dec = json_decode($_SESSION['another'], true);
     } else {
           echo "<body>
