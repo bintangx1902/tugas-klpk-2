@@ -30,6 +30,7 @@ p.text-help > a {
     letter-spacing: 1px;
 }
 
-li.custom-nav-item > a.text-white {
+li.custom-nav-item > a.text-dark-custom {
     font-size: 1.2em;
+    color: #eba560;
 }
