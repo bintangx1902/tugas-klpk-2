@@ -62,7 +62,7 @@
 
 <body id="login_register">
     <?php include "./navbar.php"; ?>
-    <section>
+    <section class="my-5">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col col-xl-10">
