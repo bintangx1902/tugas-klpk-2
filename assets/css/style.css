@@ -34,3 +34,10 @@ li.custom-nav-item > a.text-dark-custom {
     font-size: 1.2em;
     color: #eba560;
 }
+
+@media screen and (max-width: 991px){
+    li.custom-nav-item > a.text-dark-custom {
+        font-size: 1.2em;
+        color: #0d00a5;
+    }
+}
