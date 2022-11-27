@@ -26,4 +26,5 @@
 .navbar-brand {
     font-size: 1.75rem;
     letter-spacing: 3px;
+    margin-right: 0;
 }
