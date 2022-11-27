@@ -76,17 +76,17 @@
                                         </div>
                                         <div class="form-floating mb-4">
                                             <input type="text" name="email" value="<?php echo $dec['email']; ?>"
-                                                id="email" class="form-control">
+                                                id="email" class="form-control" readonly>
                                             <label for="email">Email</label>
                                         </div>
                                         <div class="form-floating mb-4">
                                             <input type="text" name="first_name" value="<?php echo $dec['fname']; ?>"
-                                                id="first_name" class="form-control">
+                                                id="first_name" class="form-control" readonly>
                                             <label for="first_name">First Name</label>
                                         </div>
                                         <div class="form-floating mb-4">
                                             <input type="text" name="lname" value="<?php echo $dec['lname']; ?>"
-                                                id="lname" class="form-control">
+                                                id="lname" class="form-control" readonly>
                                             <label for="lanme">Last Name</label>
                                         </div>
                                     </form>
