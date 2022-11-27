@@ -1,5 +1,4 @@
 <?php
-    // include "./headers.php";
     session_start();
     if (empty($_COOKIE['user'])) {
         echo "<body>
@@ -13,11 +12,6 @@
     $get_uname = $_POST['username'];
     $get_pwd = $_POST['pwd'];
 
-    // print_r($dec);
-
-    // echo '<br>';
-    // echo "df : " . in_array('seminar6', $dec);
-    // echo "df : " . in_array('bintang2131005', $dec);
     function set_session() {
         global $get_uname, $dec;
         session_start();

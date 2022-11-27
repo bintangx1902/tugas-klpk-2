@@ -1,13 +1,5 @@
 <?php 
-
 $data = array();
-
-
-// array_push($data, ['username' => 'bintang', 'email' => 'bintangpratomo@gmail.com']);
-// array_push($data, ['username' => 'bintang', 'email' => 'bintangpratomo@gmail.com']);
-// array_push($data, ['username' => 'bintang', 'email' => 'bintangpratomo@gmail.com']);
-
-
 
 function Register($username, $fname, $lname, $email, $password) {
     global $data;
@@ -18,9 +10,6 @@ function Register($username, $fname, $lname, $email, $password) {
             'password' => $password];
     array_push($data, $new);
 }
-
-// Register('bintang', 'bintang@tangbin.com', '123');
-// print_r($data);
 
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
